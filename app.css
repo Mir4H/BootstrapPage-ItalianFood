@@ -5,7 +5,7 @@ body {
 
 .text-section h2 {
     font-weight: 200;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #d44f5a;
 }
 
@@ -54,12 +54,18 @@ body {
 }
 
 .italy-icon {
-    width: 120px; object-fit: cover;
+    width: 90px; object-fit: cover;
     margin: 1rem;
 }
 
 .content {
-    margin-top: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.navbar.scrolled {
+    background: #dbc1c3;
+    transition: background 1s;
 }
 
 
@@ -67,11 +73,17 @@ body {
     #mainNavbar .nav-link {
         text-shadow: none;
     }
+    .text-section h2 {
+        font-size: 2.5rem;
+    }
 }
 
 @media (min-width:1200px) {
     #headingGroup h1 {
         font-size: 3rem;
+    }
+    .italy-icon {
+        width: 120px; object-fit: cover;
     }
 }
 

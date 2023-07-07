@@ -79,7 +79,7 @@
         </div>
         <div class="col-md-6 text-center order-1 order-md-2">
           <div class="row justify-content-center">
-            <div class="col-10 col-lg-8 text-section">
+            <div class="col-10 col-lg-8 text-section mb-5 mb-md-0">
               <h2>TASTE OF ITALY</h2>
               <img
                 class="img-fluid italy-icon d-none d-lg-inline"
@@ -93,6 +93,59 @@
                 From simple tomato sauces to creamy indulgences, pasta has the
                 power to satisfy and comfort. It brings people together,
                 creating a shared experience of joy and deliciousness.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 text-center">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 text-section mb-5 mb-md-0">
+              <h2>TASTE OF ITALY</h2>
+              <img
+                class="img-fluid italy-icon d-none d-lg-inline"
+                src="images/italy-icon.png"
+                alt="Italy map"
+              />
+              <p class="lead">
+                Pizza is a beloved dish enjoyed by people all around the world.
+                Originating from Italy, it has become a global sensation with
+                countless variations and flavors. A typical pizza consists of a
+                round, thin crust topped with tangy tomato sauce and melted
+                cheese. However, the beauty of pizza lies in its versatility,
+                allowing for a wide array of toppings such as pepperoni,
+                mushrooms, bell peppers, and even pineapple.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="images/pizza.jpg" alt="Pasta dish" />
+        </div>
+      </div>
+      <div class="row align-items-center content">
+        <div class="col-md-6 order-2 order-md-1">
+          <img class="img-fluid" src="images/parmigiano.jpg" alt="Pasta dish" />
+        </div>
+        <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="row justify-content-center">
+            <div class="col-10 col-lg-8 text-section mb-5 mb-md-0">
+              <h2>TASTE OF ITALY</h2>
+              <img
+                class="img-fluid italy-icon d-none d-lg-inline"
+                src="images/italy-icon.png"
+                alt="Italy map"
+              />
+              <p class="lead">
+                Parmigiano-Reggiano, often hailed as the "king of cheeses," is a
+                renowned Italian delicacy with a rich history and distinct
+                flavor profile. Produced in the provinces of Parma, Reggio
+                Emilia, Modena, and parts of Bologna, this hard cheese is
+                crafted using traditional methods that have been passed down for
+                centuries. Known for its granular texture and nutty, savory
+                taste, Parmigiano-Reggiano adds depth and complexity to a wide
+                range of dishes.
               </p>
             </div>
           </div>
@@ -114,5 +167,13 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>
