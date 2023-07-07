@@ -10,13 +10,46 @@ body {
 
 #mainNavbar .nav-link {
     color: white;
+    text-shadow: 1px 1px 2px #505050;
 }
 
+.navbar-toggler {
+    background-color: #d44f5a;
+  } 
+
 #mainNavbar .nav-link:hover {
-    color: #3eaf1c;
+    color: #d44f5a;
+    text-shadow: none;
 }
 
 #mainNavbar .navbar-brand {
-    font-size: 1.6rem;
-    color: #ea1c2c;
+    font-size: 1.8rem;
+    color: #d44f5a;
 }
+
+#headingGroup span:first-child {
+    color: #4fd477;
+}
+
+#headingGroup span:last-child {
+    color: #d44f5a;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 2.3rem;
+}
+
+
+@media (min-width:992px) {
+    #mainNavbar .nav-link {
+        text-shadow: none;
+    }
+}
+
+@media (min-width:1200px) {
+    #headingGroup h1 {
+        font-size: 3rem;
+    }
+}
+

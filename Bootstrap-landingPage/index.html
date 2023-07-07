@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Taste of Italy</title>
     <!-- Google fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700"
       rel="stylesheet"
     />
     <!-- Bootstrap CSS -->
@@ -18,10 +17,19 @@
     />
     <!-- Custon CSS -->
     <link rel="stylesheet" href="app.css" />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <title>Taste of Italy</title>
   </head>
   <body>
-    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0">
-      <a href="#" class="navbar-brand">TASTE OF ITALY</a>
+    <nav
+      id="mainNavbar"
+      class="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="#" class="navbar-brand">TASTE</a>
       <button
         class="navbar-toggler"
         data-toggle="collapse"
@@ -44,7 +52,26 @@
         </ul>
       </div>
     </nav>
-    <h1>Taste of Italy</h1>
+    <section class="container-fluid px-0">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div
+            id="headingGroup"
+            class="text-white text-center d-none d-lg-block mt-5"
+          >
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+            <h1 class="">TASTE<span>/</span>OF<span>/</span>ITALY</h1>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/gelato.jpg" alt="Gelato" />
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
