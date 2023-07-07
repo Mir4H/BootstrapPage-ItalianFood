@@ -3,6 +3,19 @@ body {
     background: #e4cdcc;
 }
 
+.text-section h2 {
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: #d44f5a;
+}
+
+.text-section p {
+    font-weight: 300;
+    font-size: 1.125rem;
+    color: #d66a73;
+    line-height: 2;
+}
+
 #mainNavbar {
     font-weight: 300;
     font-size: 1.3rem;
@@ -28,7 +41,7 @@ body {
 }
 
 #headingGroup span:first-child {
-    color: #4fd477;
+    color: rgb(89, 190, 119);
 }
 
 #headingGroup span:last-child {
@@ -38,6 +51,15 @@ body {
 #headingGroup h1 {
     font-weight: 100;
     font-size: 2.3rem;
+}
+
+.italy-icon {
+    width: 120px; object-fit: cover;
+    margin: 1rem;
+}
+
+.content {
+    margin-top: 100px;
 }
 
 
