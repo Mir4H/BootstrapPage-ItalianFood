@@ -1,3 +1,3 @@
 # Bootstrap Project
-A landing page design for Italian food website created with HTML & bootstrap CSS. <br>
-You can check it out: https://mir4h.github.io/BootstrapPage-ItalianFood/ 
+A resposive landing page design and implementation for Italian food website created with HTML & bootstrap CSS. <br>
+You can check it out here: https://mir4h.github.io/BootstrapPage-ItalianFood/ 
